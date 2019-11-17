@@ -1,0 +1,73 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar-top {
+  background-color: #f72210;
+}
+
+.subscribe-btn {
+  color: #f72210;
+}
+
+.subscribe-btn:hover {
+  color: #f72210;
+}
+
+.navbar-nav > * {
+  border: 1px black solid;
+}
+
+#navbar-bottom {
+  position: absolute;
+  right: 0;
+}
+
+.form-inline .form-control {
+  /* display: inline-block; */
+  width: 175px;
+
+  padding: 0;
+  /* vertical-align: middle; */
+}
+
+.navbar-top-btn-fs {
+  font-size: 0.875rem;
+}
+
+.test {
+  background: yellowgreen;
+}
+
+.test > * {
+  border: 1px black solid;
+}
+
+.bd-black {
+  border: 1px black solid;
+}
+
+.bg-blue {
+  background: blue;
+}
+
+@media only screen and (min-width: 480px) {
+  .navbar-top-btn-fs {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #navbar-bottom {
+    position: relative;
+  }
+
+  .form-inline .form-control {
+    /* display: inline-block; */
+    width: 60px;
+    height: 54px;
+    padding: 0;
+    font-size: 16px;
+    /* vertical-align: middle; */
+  }
+}

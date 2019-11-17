@@ -1,0 +1,29 @@
+@import 'base';
+
+.navbar-top {
+  background-color: $theme-red;
+}
+
+.sign-in-btn {
+
+}
+
+.subscribe-btn {
+  color: $theme-red;
+}
+
+.subscribe-btn:hover {
+  color: $theme-red;
+}
+
+@mixin navbar-top-fs {
+  font-size: 0.875rem;
+
+  @media screen and (min-width: 480px) {
+    font-size: 1.125rem;
+  }
+}
+
+.navbar-top-fs {
+  @include navbar-top-fs;
+}

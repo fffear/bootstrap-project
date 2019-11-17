@@ -1,0 +1,27 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar-top {
+  background-color: #f72210;
+}
+
+.subscribe-btn {
+  color: #f72210;
+}
+
+.subscribe-btn:hover {
+  color: #f72210;
+}
+
+.navbar-top-fs {
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 480px) {
+  .navbar-top-fs {
+    font-size: 1.125rem;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
