@@ -4,6 +4,16 @@ body {
 
 .navbar-top {
   background-color: #f72210;
+  padding: 0;
+}
+
+.date {
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.navbar-brand svg {
+  height: 20px;
+  width: 132px;
 }
 
 .subscribe-btn {
@@ -14,9 +24,21 @@ body {
   color: #f72210;
 }
 
-.navbar-nav > * {
-  border: 1px black solid;
+.menu-btn a[aria-expanded="false"] {
+  height: 50px;
+  width: 74px;
+  background: url("../images/hamburger_menu.svg") center/75% 75% no-repeat;
 }
+
+.menu-btn a[aria-expanded="true"] {
+  height: 50px;
+  width: 74px;
+  background: url("../images/close.svg") center/50% 50% no-repeat border-box;
+}
+
+/* .navbar-nav > * {
+  border: 1px black solid;
+} */
 
 #navbar-bottom {
   position: absolute;
@@ -33,14 +55,12 @@ body {
 
 .navbar-top-btn-fs {
   font-size: 0.875rem;
+  line-height: 0.875rem;
+  padding: 6px 3px;
 }
 
 .test {
   background: yellowgreen;
-}
-
-.test > * {
-  border: 1px black solid;
 }
 
 .bd-black {
@@ -58,8 +78,19 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .navbar-top {
+    background-color: #f72210;
+    padding: 20px 10px 15px;
+  }
+
+  .navbar-brand svg {
+    height: 60px;
+    width: 396px;
+  }
+
   #navbar-bottom {
     position: relative;
+
   }
 
   .form-inline .form-control {
