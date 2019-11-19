@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="border-bottom">
         <div class="navbar navbar-expand navbar-top justify-content-between position-relative align-items-center align-items-lg-end pl-3">
           <span class="navbar-text d-none d-lg-block text-white date">Fri, Nov 15, 2019</span>
           <a class="navbar-brand d-flex align-items-center" href="#">
@@ -43,32 +43,96 @@
           </ul>
         </div>
 
-        <div class="navbar navbar-expand-lg d-lg-flex collapse navbar-dark" id="navbar-bottom">
-          <ul class="navbar-nav w-100 text-nowrap test">
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">U.S.</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">World</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">Business</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">Tech & Science</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">Culture</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">Newsgeek</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">Sports</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">Health</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">Opinion</a></li>
-            <li class="nav-item flex-grow-1 order-1"><a class="nav-link text-dark border-right" href="#">Vantage</a></li>
-            <li class="nav-item mr-lg-5 order-0 order-lg-1">
+        <div class="navbar navbar-nav navbar-expand-lg d-lg-flex collapse navbar-dark p-0" id="navbar-bottom">
+          <ul class="navbar-nav nav-item text-nowrap bg-white order-1">
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0 " href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">U.S.</span>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">World</span>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">Business</span>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">Tech & Science</span>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">Culture</span>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">Newsgeek</span>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">Sports</span></a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">Health</span>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">Opinion</span>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <div>
+                <a class="nav-link px-3 px-lg-0" href="#">
+                  <span class="d-flex d-lg-block justify-content-between align-items-center font-weight-bold w-100 category text-center">Vantage</span>
+                </a>
+              </div>
+            </li>
+            <!-- <li class="nav-item mr-lg-5 order-0 order-lg-1">
               <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="">Search</button>
               </form>
-            </li>
+            </li> -->
           </ul>
+
+          <form class="form-inline search-form px-3 px-lg-2 nav-item order-0 order-lg-1">
+            <input class="form-control mr-sm-2 border-0" type="search" placeholder="Search" aria-label="Search">
+            <button class="search-btn">
+              <img src="assets/images/search.svg" alt="search" height="20px" width="20px">
+            </button>
+          </form>
         </div>
       </nav>
     </header>
 
     <main>
-      <p>Algorithm</p>
-
       <div class="container-fluid px-5 bg-blue">
         <div class="row">
           <div class="bd-black order-1 order-md-1 col-md-6 col-lg">Featured Stories</div>
