@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+.container-fluid {
+  max-width: 1330px;
+}
+
 .navbar-top {
   background-color: #f72210;
   padding: 0;
@@ -101,9 +105,302 @@ body {
   background: blue;
 }
 
+/* Main container */
+.container-fluid {
+  min-width: 320px;
+}
+
+/*  */
+.top-story-heading {
+  line-height: 22px;
+}
+
+.top-story-heading a {
+  font-size: 22px;
+  color: #000;
+  font-family: "Roboto Condensed",sans-serif;
+  text-decoration-color: #f72210;
+}
+
+/* Block Title */
+.block-title {
+  font-family: "Roboto Condensed",sans-serif;
+  color: rgba(3, 3, 3, 0.4);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 11px;
+}
+
+/* Category link of image */
+.img-category-link {
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 17px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.article-img {
+  margin-bottom: 10px;
+}
+
+.img-category-link a {
+  color: #f72210;
+}
+
+.img-category-link a:hover {
+  text-decoration-line: none;
+}
+
+.summary {
+  color: #333333;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+/* Feature Stories */
+.feature-stories-heading {
+  font-size: 20px;
+  color: #000;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.feature-stories-heading a {
+  color: #000;
+  text-decoration-color: #f72210;
+}
+
+/* Opinions Section */
+.individual-opinions {
+  width: 100%;
+}
+
+.individual-opinion {
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.individual-opinion a {
+  font-size: 17px;
+  color: #000;
+}
+
+.individual-opinion a:hover {
+  text-decoration-line: none;
+  color: #f72210;
+}
+
+.by-line {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Latest News */
+.latest-news {
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.latest-news a {
+  color: #000;
+  font-size: 17px;
+}
+
+.latest-news a:hover {
+  color: #f72210;
+  text-decoration-line: none;
+}
+
+.latest-news img {
+  width: 135px;
+}
+
+/* Newsletter signup */
+.newsletter-signup {
+  min-width: 290px;
+  max-width: 300px;
+  background: #f4f5f6;
+  padding: 20px;
+}
+
+.newsletter-signup a:hover {
+  text-decoration-line: none;
+}
+
+.newsletter-signup .link-1 {
+  background: #666666;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter-signup .link-1:hover {
+  background: #999999;
+}
+
+.newsletter-signup .link-1::after {
+  display: inline-block;
+  height: 14px;
+  width: 8px;
+  content: "";
+  background: url("../images/right_arrow_white.svg") left top/100% 100% no-repeat;
+}
+
+.newsletter-signup .link-2 {
+  font-size: 15px;
+  color: #000;
+}
+
+/* news week icon */
+.n-title {
+  color: #333333;
+  font-size: 19px;
+  line-height: 19px;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.n-icon {
+  width: 28px;
+  height: 29px;
+  margin-right: 10px;
+  background: #f72210;
+}
+
+/* Advertisement Images */
+.left-col-ad {
+  width: 100%;
+}
+
+.left-col-ad img {
+  width: 100%;
+  height: auto;
+}
+
+.right-col-ad {
+  width: 100%;
+}
+
+
+.right-col-ad img {
+  width: 100%;
+  height: auto;
+}
+
+/* Ad Image Link */
+.img-ad-link {
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 17px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #3581f4;
+}
+
+.ad-border {
+  border: 1px #e6e6e6 solid;
+}
+
+.more-stories-img img {
+  height: 90px;
+  width: 135px;
+  margin-right: 15px;
+}
+
+.more-stories-heading {
+  line-height: 17px;
+}
+
+.more-stories-heading a {
+  font-size: 17px;
+  color: #000;
+  font-family: "Roboto Condensed",sans-serif;
+  line-height: 17px;
+}
+
+.more-stories-heading a:hover {
+  text-decoration-color: #f72210;
+}
+
+.more-stories li {
+  min-width: 290px;
+}
+
+/* Culture and Travel */
+.culture-and-travel {
+  background: #f4f5f7;
+}
+
+.culture-img {
+  margin-bottom: 15px;
+}
+
+.culture-heading {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 22px;
+  color: #272727;
+  margin-bottom: 10px;
+}
+
+.culture-heading:hover {
+  color: #272727;
+  text-decoration-line: none;
+}
+
+.culture-summary {
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.5);
+  font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+  margin-bottom: 10px;
+}
+
+.tags {
+  background: #c2d4d7;
+  padding: 3px 6px;
+  font-size: 13px;
+  font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: #272727;
+}
+
+.tags:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+  text-decoration-line: none;
+}
+
 @media only screen and (min-width: 480px) {
   .navbar-top-btn-fs {
     font-size: 1.125rem;
+  }
+
+  .more-stories-img img {
+    height: 172px;
+    width: 258px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .summary {
+    font-size: 15px;
+  }
+
+  .feature-stories-heading {
+    font-size: 24px;
+  }
+
+  /* Advertisement Images */
+  .right-col-ad {
+    min-width: 330px;
+    max-width: 330px;
+  }
+
+  .more-stories-img img {
+    height: 90px;
+    width: 135px;
+  }  
+
+  .culture-and-travel-article {
+    width: 50%;
   }
 }
 
@@ -146,5 +443,22 @@ body {
 
   .category::after {
     display: none;
+  }
+
+  .newsletter-signup {
+    max-width: 300px;
+    min-width: auto;
+  }
+
+
+  .left-col-ad {
+    width: auto;
+  }
+
+  /* Advertisement Images */
+  .right-col-ad {
+    min-width: auto;
+    max-width: auto;
+    width: auto;
   }
 }
