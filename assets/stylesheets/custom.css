@@ -14,6 +14,10 @@ body {
   margin-bottom: 30px;
 }
 
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 .px-10 {
   padding: 0 10px;
 }
@@ -322,6 +326,20 @@ body {
   height: 29px;
   margin-right: 10px;
   background: #f72210;
+  border: 1px #fff solid;
+}
+
+.n-icon-after::after {
+  z-index: -1;
+  display: block;
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  content: " ";
+  width: 28px;
+  height: 29px;
+  margin-right: 10px;
+  background: #f72210;
 }
 
 .n-heading {
@@ -492,6 +510,28 @@ body {
 .editor-picks-headings:hover {
   color: #000;
   text-decoration-color: #f72210;
+}
+
+/* Feature Slideshows */
+.feature-slideshow-headings {
+  font-size: 18px;
+  color: #000;
+}
+
+.feature-slideshow-headings:hover {
+  color: #000;
+  text-decoration-color: #f72210;
+}
+
+.feature-slideshow-count-link {
+  background: url("../images/feature_slideshows/slideshows_icon.png") left top/100% 100% no-repeat;
+  height: 52px;
+  width: 70px;
+}
+
+.feature-slideshow-count-link-content {
+  margin: 15px 8px 0 19px;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 480px) {
