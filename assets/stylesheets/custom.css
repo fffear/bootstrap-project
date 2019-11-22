@@ -6,8 +6,67 @@ body {
   max-width: 1330px;
 }
 
-.navbar-top {
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.px-10 {
+  padding: 0 10px;
+}
+
+.border-md-bottom {
+  border-bottom: none;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.bg-white-09 {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.font-roboto {
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.bg-red {
   background-color: #f72210;
+}
+
+.text-red {
+  color: #f72210;
+}
+
+.text-red:hover {
+  color: #f72210;
+  text-decoration-line: none;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-black-hover:hover {
+  color: #000;
+  text-decoration-line: none;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+
+
+.navbar-top {
   padding: 0;
 }
 
@@ -265,6 +324,13 @@ body {
   background: #f72210;
 }
 
+.n-heading {
+  font-size: 19px;
+  font-family: "Roboto Condensed",sans-serif;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
 /* Advertisement Images */
 .left-col-ad {
   width: 100%;
@@ -368,6 +434,55 @@ body {
   text-decoration-line: none;
 }
 
+/* In magazine image container */
+.in-magazine-img-container {
+  width: 100%;
+  /* overflow-x: hidden; */
+  margin-bottom: 7px;
+}
+
+.in-magazine-img-container img {
+  /* position: relative; */
+  width: 100%;
+  /* max-width: 466px; */
+  height: auto;
+  /* margin-left: -25%; */
+}
+
+.in-magazine-heading {
+  font-size: 20px;
+  color: #000000;
+  line-height: 20px;
+  margin-top: 7px;
+}
+
+.in-magazine-heading:hover {
+  color: #000000;
+  text-decoration-color: #f72210;
+}
+
+.mag-cat {
+  height: 26px;
+  padding: 0 7px;
+}
+
+.features-btn {
+  background: #f4f5f6;
+}
+
+.features-btn:hover {
+  background: #dbdcdd;
+}
+
+.features-btn::after {
+  display: inline-block;
+  height: 14px;
+  width: 8px;
+  margin-left: 10px;
+  content: "";
+  background: url("../images/right_arrow.svg") left top/100% 100% no-repeat;
+}
+
 @media only screen and (min-width: 480px) {
   .navbar-top-btn-fs {
     font-size: 1.125rem;
@@ -402,11 +517,36 @@ body {
   .culture-and-travel-article {
     width: 50%;
   }
+
+  /* In magazine image container */
+  .in-magazine-img-container {
+    width: 100%;
+    overflow-x: hidden;
+    margin-bottom: 7px;
+  }
+
+  .in-magazine-img-container img {
+    position: relative;
+    width: 150%;
+    max-width: 466px;
+    height: auto;
+    margin-left: -25%;
+  }
+
+  .border-md-bottom {
+    border-bottom: 1px grey solid;
+  }
+
+  .in-magazine-heading {
+    font-size: 20px;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 7px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .navbar-top {
-    background-color: #f72210;
     padding: 20px 10px 15px;
   }
 
