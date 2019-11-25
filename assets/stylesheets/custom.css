@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  background: #f4f5f6;
+}
+
 main {
   background: #f4f5f6;
 }
@@ -10,6 +14,10 @@ main {
   max-width: 1330px;
   padding: 0 30px;
   background: #fff;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
 }
 
 .mt-20 {
@@ -26,6 +34,14 @@ main {
 
 .px-10 {
   padding: 0 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-40 {
+  padding-top: 40px;
 }
 
 .pb-10 {
@@ -85,8 +101,6 @@ main {
 .fs-18 {
   font-size: 18px;
 }
-
-
 
 .navbar-top {
   padding: 0;
@@ -622,8 +636,6 @@ main {
   height: 241px;
   width: 255px;
   padding: 0 90px 13px 0;
-  
-  /* border: 1px black solid;  /* border: 1px black solid; */
 }
 
 .subscribe-image-container img {
@@ -668,6 +680,114 @@ main {
 .newsletter-block-content {
   padding: 20px;
   border: 1px rgb(235, 235, 235) solid;
+}
+
+footer {
+  background: #f4f5f6;
+}
+
+.footer {
+  padding: 30px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-navbar-brand svg {
+  height: 36px;
+  width: 236px;
+}
+
+.copyright {
+  color: #666666;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.facebook-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.facebook-icon:hover .facebook-icon-path {
+  fill: #3b5998;
+}
+
+.twitter-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.twitter-icon:hover .twitter-icon-path {
+  fill: #1da1f2;
+}
+
+.instagram-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.instagram-icon:hover .instagram-icon-path {
+  fill: #405de6; 
+}
+
+.tumblr-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.tumblr-icon:hover .tumblr-icon-path {
+  fill: #35465c; 
+}
+
+.linkedin-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.linkedin-icon-path {
+  fill: rgb(102, 102, 102);
+}
+
+.linkedin-icon:hover .linkedin-icon-path {
+  fill: #0077b5; 
+}
+
+.footer-links {
+  font-size: 14px;
+  padding-bottom: 6px;
+}
+
+.footer-menu > li {
+  padding: 0 20px 0 0;
+  margin: 6px 0;
+  line-height: 15px;
+}
+
+.footer-menu > li a {
+  color: #666666;
+}
+
+.footer-menu > li a:hover {
+  color: #000;
+  text-decoration-line: none;
+}
+
+.editions-heading {
+  margin: 6px 15px 0 0;
+  line-height: 15px;
+}
+
+.editions li {
+  padding: 0 20px 0 0;
+  margin: 6px 0;
+}
+
+.editions a {
+  color: #666666;
+}
+
+.editions a:hover {
+  color: #000;
+  text-decoration-line: none;
 }
 
 @media only screen and (min-width: 480px) {
@@ -768,6 +888,23 @@ main {
 
   .newsletter-block-content {
     padding: 30px;
+  }
+
+  .footer-menu > li:nth-last-child(n + 2) {
+    border-right: 1px solid #d9d9d9;
+    line-height: 15px;
+  }
+
+  .footer-menu > li {
+    padding: 0 10px 0 0;
+    margin: 6px 10px 6px 0;
+  }
+
+  .editions li {
+    padding: 0 10px 0 0;
+    margin: 6px 10px 6px 0;
+    line-height: 15px;
+    border-right: 1px solid #d9d9d9;
   }
 }
 
